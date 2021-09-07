@@ -1,0 +1,24 @@
+#tableArrivals {
+    display: none;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #divStop {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .inputFix {
+    display: inline;
+    width: auto;
+  }
+  
+  #divSearch {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  #search {
+    display: block;
+  }

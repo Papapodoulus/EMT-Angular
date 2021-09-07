@@ -1,0 +1,28 @@
+#tableArrivals {
+  display: none;
+  text-align: center;
+  margin: auto;
+}
+
+#divStop {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#eInputID {
+  display: inline;
+  width: auto;
+}
+
+#divSearch {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#search {
+  display: block;
+}
+
+/* th {
+  background-color: #b8f0ff;
+} */

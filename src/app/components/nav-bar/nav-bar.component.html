@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" [routerLink]="[ '/home']" routerLinkActive="active">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/stop' ]">Serch Stop by Number</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/stop-name' ]">Serch Stop By Name</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/stop-coordinates' ]">Serch Stop by your position</a>
+        
+        <!-- In the not too distant future I would like to extend my website with the Madrid metro. -->
+        
+        <!-- </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/metro-stop' ]">Metro</a>
+        </li> -->
+
+      </ul>
+    </div>
+  </div>
+</nav>

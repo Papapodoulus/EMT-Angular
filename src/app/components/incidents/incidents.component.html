@@ -1,0 +1,5 @@
+<h2>Linea: {{line}}</h2>
+
+<h4>Descripción:</h4>
+<p *ngIf="description != null; else elseBlock" [innerHTML]="description"></p>
+<ng-template #elseBlock>No hay incidencias.</ng-template>

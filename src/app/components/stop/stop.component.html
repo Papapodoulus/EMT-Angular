@@ -1,0 +1,23 @@
+<div class="d-flex justify-content-center" id="divStop">
+  <label class="col-2 d-flex align-items-center">STOP </label>
+  <input type="text" class="form-control col-2" id="eInputID" #eInputID value="1408">
+</div>
+
+<div class="d-flex justify-content-center" id="divSearch">
+  <button type="submit" class="btn btn-primary" id="search" #search (click)="getBuses()">Search</button>
+</div>
+
+<div id="divTableArrivas" class="table-responsive">
+  <table id="tableArrivals" class="tableCenter col-6">
+    <thead class="bg-info">
+      <tr>
+        <th>Line</th>
+        <th>Nº Bus</th>
+        <th>Destination</th>
+        <th>Distance</th>
+        <th>Estimate Arrive</th>
+      </tr>
+    </thead>
+    <tbody id="tbodyArrivals"></tbody>
+  </table>
+</div>
