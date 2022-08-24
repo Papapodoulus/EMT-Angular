@@ -4,8 +4,9 @@ export class ApiEMT {
 
     public static logInApiRest() {
 
-        const email = 'randomEmail@randomcompany.com';
-        const password = 'randompassword';
+        const json = require('./data.json');
+        const email = json["email"];
+        const password = json["password"];
 
         const promise = axios.get('https://openapi.emtmadrid.es/v2/mobilitylabs/user/login/', {
             headers: {
